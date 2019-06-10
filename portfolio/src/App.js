@@ -1,19 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Navigation from './Components/Navigation/Navigation.js';
+import './App.css';
 
-function App() {
-  return (
-    <div>
-
-    <h1> This is my future portfolio.  Stay tuned for updates!</h1>
-{/*
-    <Navigation />
-    <Bio />
-    <Projects />
-    <Education />
-    <Experience />*/}
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div ClassName='App'>
+        <Navigation />
+        {/*<Bio />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />*/}
+      </div>
+    );
+  }
 }
+
 
 export default App;
