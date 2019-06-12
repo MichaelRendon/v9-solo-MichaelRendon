@@ -3,9 +3,9 @@ import './Bio.css';
 
 const Bio = () => {
   return (
-    <div class= 'container' style={{display: 'flex', justifyContent: 'flex-start', alignItems: 'center'}}>
+    <div className='bio pa5'>
     <h2>About Me</h2>
-    <p></p>
+    <p>Let me tell you a little about myself...</p>
     </div>
   );
 }

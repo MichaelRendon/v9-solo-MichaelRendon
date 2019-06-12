@@ -1,11 +1,14 @@
 import React from 'react';
+import './Navigation.css';
 
 const Navigation = () => {
   return (
-    <nav style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start'}}>
-    <a className='f2 link dim black underline pa3 pointer' href='' >Resume</a>
-    <a className='f2 link dim black underline pa3 pointer' href='' >Projects</a>
-    <a className='f2 link dim black underline pa3 pointer' href='' >Contact</a>
+    <nav className='header'>
+      <ul className='nav-links'>
+        <li><a className='pointer' href='' >Resume</a></li>
+        <li><a className='pointer' href='' >Projects</a></li>
+        <li><a className='pointer' href='' >Contact</a></li>
+      </ul>
     </nav>
   );
 }
