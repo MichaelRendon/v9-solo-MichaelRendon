@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Navigation from './Components/Navigation/Navigation.js';
+import Bio from './Components/Bio/Bio.js';
 import './App.css';
 
 class App extends Component {
@@ -7,11 +8,13 @@ class App extends Component {
     return (
       <div ClassName='App'>
         <Navigation />
-        {/*<Bio />
+        <Bio />
+        {/*
         <Skills />
         <Projects />
         <Experience />
-        <Education />*/}
+        <Education />
+      */}
       </div>
     );
   }
