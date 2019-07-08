@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div className='bio pa5'>
+    <div className='education pa3'>
       <ul>
         <h2>Baker College of Flint</h2>
         <h3>Computer Science/ Information Technology</h3>

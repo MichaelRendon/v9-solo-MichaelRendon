@@ -4,9 +4,10 @@ import Bio from './Components/Bio/Bio.js';
 import Skills from './Components/Skills/Skills.js';
 import Education from './Components/Education/Education.js';
 import Project from './Components/Projects/Project.js';
-import Experience from './Components/Experience/Experience.js'
+import Experience from './Components/Experience/Experience.js';
+import Image from './Components/Image/Image.js';
 import './App.css';
-import 'tachyons';
+
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
       <div ClassName='App'>
         <Navigation className='nav-links' />
         <Bio  />
+        <Image className='' />
         <Skills className='skills'/>
         <Education />
         <Project />

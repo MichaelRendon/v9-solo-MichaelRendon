@@ -23,11 +23,23 @@
     border: 8px;
 }
 
-.skills {
+.image {
     display: flex;
-    justify-content: flex-end;
- 
-} 
+    align-self: right;
+}
+
+.bio {
+    display: flex;
+    align-items: left;
+    flex-wrap: row;
+    text-align: left;
+    margin-left: 5vh;
+    max-width: 40%;
+}
+
+.skills {
+    max-width: 40%;
+}
 
 li {
     padding: 20px;
