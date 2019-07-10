@@ -15,8 +15,8 @@ class App extends Component {
     return (
       <div ClassName='App'>
         <Navigation className='nav-links' />
-        <Bio  />
-        <Image className='' />
+        <Bio className='bio' />
+        <Image className='image' />
         <Skills className='skills'/>
         <Education />
         <Project />

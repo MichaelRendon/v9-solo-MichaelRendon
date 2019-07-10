@@ -4,9 +4,9 @@ const Navigation = () => {
   return (
     <nav className='header'>
       <ul className='nav-links'>
-        <li><a className='pointer' href='' >Resume</a></li>
-        <li><a className='pointer' href='' >Projects</a></li>
-        <li><a className='pointer' href='' >Contact</a></li>
+        <li><a className='pointer' href='./MichaelRendon.html' target="blank" >Resume</a></li>
+        <li><a className='pointer' href='https://github.com/MichaelRendon' target="blank" >Projects</a></li>
+        <li><a className='pointer' href='./Contact.html' target="blank ">Contact</a></li>
       </ul>
     </nav>
   );
